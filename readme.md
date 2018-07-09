@@ -1,19 +1,26 @@
-## tensorflow  notes
+## Tensorflow  Study Logs
 
 
 
-### resources:
+### Resources:
 
-1. book:
-   - TensorFlow实战
-   - 机器学习实用指南
-2. github
+#### References Books:
+
+- TensorFlow实战google深度学习框架
+- TensorFlow实战
+- 机器学习实用指南
 
 
 
-file index:
 
-[tensorflow configuration](tensorflow configuration.md)
+
+### File index:
+
+#### TensorFlow实战google深度学习框架:
+
+- chapter3 入门
+- chapter4 深层神经网络
+- chapter5 MNIST数字识别
 
 
 
