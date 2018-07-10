@@ -160,3 +160,13 @@ pip3 install tensorflow-gpu==1.2 --user  //安装成功
 ImportError: libcudnn.so.6: cannot open shared object file: No such file or directory
 
 原因是1.4版的需要cudnn v6.x,  参考:https://blog.csdn.net/silent56_th/article/details/77587792
+
+
+
+tensorflow指定GPU
+
+```
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+```
+
